@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:test_git/models/task_list_model.dart';
 
+//this is a new comment
 void main() {
+  print("this is new");
   runApp( ChangeNotifierProvider(create:(BuildContext context)=> TaskListModel(), child: MyApp()));
 }
 
@@ -34,6 +36,7 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
+  //
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
   // how it looks.
