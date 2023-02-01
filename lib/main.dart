@@ -5,6 +5,7 @@ import 'package:test_git/models/task_list_model.dart';
 //this is a new comment
 void main() {
   print("this is new");
+  print("this is new");
   runApp( ChangeNotifierProvider(create:(BuildContext context)=> TaskListModel(), child: MyApp()));
 }
 
